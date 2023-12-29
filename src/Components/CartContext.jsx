@@ -128,7 +128,7 @@ function CartContext() {
               </h4>
             </div>
             <form className="d-flex">
-              <a className="btn btn-outline-light" type="submit" href="">
+              <a className="btn btn-outline-light" type="submit" href="#">
                 <i className="fa-solid fa-cart-shopping me-2"></i>
                 Cart
                 <span className="badge bg-dark text-light ms-1 rounded-pill">
