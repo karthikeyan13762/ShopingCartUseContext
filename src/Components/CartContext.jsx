@@ -55,7 +55,7 @@ function CartContext() {
                 <a
                   className="btn btn-outline-light"
                   type="submit"
-                  href="./output.jsx"
+                  href="#"
                 >
                   <i className="fa-solid fa-cart-shopping me-2"></i>
                   Cart
