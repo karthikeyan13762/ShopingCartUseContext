@@ -34,7 +34,7 @@ function CartContext() {
                   <a
                     className="nav-link active text-white"
                     aria-current="page"
-                    href="#!"
+                   
                   >
                     {/* Home */}
                   </a>
@@ -55,7 +55,7 @@ function CartContext() {
                 <a
                   className="btn btn-outline-light"
                   type="submit"
-                  href="#"
+                 
                 >
                   <i className="fa-solid fa-cart-shopping me-2"></i>
                   Cart
@@ -87,7 +87,7 @@ function CartContext() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light ">
         <div className="container px-4 px-lg-5">
-          <a className="navbar-brand  text-white" href="#">
+          <a className="navbar-brand  text-white" >
             Continue Shoping
           </a>
           <button
@@ -128,7 +128,7 @@ function CartContext() {
               </h4>
             </div>
             <form className="d-flex">
-              <a className="btn btn-outline-light" type="submit" href="#">
+              <a className="btn btn-outline-light" type="submit" >
                 <i className="fa-solid fa-cart-shopping me-2"></i>
                 Cart
                 <span className="badge bg-dark text-light ms-1 rounded-pill">

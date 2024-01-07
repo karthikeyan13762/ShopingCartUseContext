@@ -44,7 +44,7 @@ function Item({ items }) {
                         </div>
                         <div className="col-6">
                           <h4 className="stock text-primary">
-                            Stock{" "}
+                            Stock
                             <span className="productstock text-danger">
                               {items.stock}
                             </span>

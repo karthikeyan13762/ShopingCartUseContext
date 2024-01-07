@@ -7,6 +7,7 @@ import { reduser } from "./reduser";
 
 export const CreateContext = createContext();
 function Cart() {
+  
   const intialState = {
     item: jsonObjectArray,
     totalAmount: 0,
