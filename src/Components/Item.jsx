@@ -4,7 +4,7 @@ import "./Cart.css";
 function Item({ items }) {
   const { remove, incremunt, decrement, totalAmount } =
     useContext(CreateContext);
-    
+    const perQuantityTotal=items.quantity *items.price;
   return (
     <div>
       <div className="row d-flex justify-content-center" id="#top">
@@ -94,7 +94,9 @@ function Item({ items }) {
                     </div>
                   </div>
                 </div>
-
+                <div className="per-quantity-total mt-2">
+            <h5> <span className="text-warning">Total Amount for</span><span className="text-primary"> {items.title}  : $  </span><span className="text-danger">{perQuantityTotal}</span></h5>
+            </div>
                 <div className="btnGroup d-flex justify-content-between">
                   <button className="btn btn-primary Cart-button">Home</button>
 

@@ -147,7 +147,7 @@ function CartContext() {
       </nav>
 
       {/* ----------------------------------------------- */}
-      <section className="main-cartSection">
+      <section className="main-cartSection" >
         <div className="cart-items">
           <div className="container ">
             <h1>Shoping Cart</h1>
